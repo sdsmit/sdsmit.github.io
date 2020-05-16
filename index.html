@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="./resources/css/index.scss" type="text/css" rel="stylesheet">
+  <title></title>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="titleBar">
+      <p1> Sam Smith </p1>
+    </div>
+
+    <div class="bio">
+        <p1>Musician, Performer, Programmer, and Problem-solver,
+          I am a student at The University of Michigan pursueing
+          Bachelor's degrees in Sound Engineering and Computer Science.
+          I have experience with interactive installations,
+          audio/visual performance systems, studio recording
+          practices, immersive media spaces, and visual media arts.
+          These skills help me think about media in new ways
+          allowing for innovation and discovery throughout my work.</p1>
+    </div>
+
+    </div>
+
+    <div class = "gridContainer">
+
+    <div class="grid">
+      <div class="grid-col grid-col--1">
+
+      </div>
+
+      <div class="grid-col grid-col--2">
+
+      </div>
+
+      <div class="grid-col grid-col--3">
+
+      </div>
+
+      <div class="grid-item">
+          <img id="image"src="headshot.jpeg">
+          <a href="resume2020.pdf" target="_blank">Resume</a>
+          <a href="https://www.linkedin.com/in/sdsmit/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/sdsmit" target="_blank">Github</a>
+      </div>
+
+      <div class="grid-item">
+          <img id="image"src="sonic_surfer_control.png">
+          <h3>Sonic Surfer(2020)</h3>
+          <p>Sonic Surfer is a multimedia game inspired
+            early iphone-games such as temple run and flappy bird. The
+            game is controled thorugh a pressure senstive pad that the
+            player stands on. Sonic Surfer relies primarily on spatial audio
+            information encoded for a pair of headphones. The user leans towards
+            "good" sounds and avoids the bad "ones".</p>
+            <a href="sonic_surfer.pdf" target="_blank">More information</a>
+      </div>
+
+      <div class="grid-item">
+          <img id="image"src="feedback.png">
+          <h3>Feedback(2020)</h3>
+          <p>Feedback is a multimodal instrument inspired by the electro-acoustic
+            phenomenon, feedback. This instrument uses gloves with embedded light sensors
+            to control audio synthesis and subsequently control a 2D animation. The user
+            then uses this animation to excite the gloves sensors.
+          </p>
+      </div>
+
+      <div class="grid-item">
+          <img id="image"src="refSec.jpeg">
+          <h3>Great Green Room(2019)</h3>
+          <p>The self-produced debut album from my band, Reference Section.
+            This record was recorded by myself and Fisher Diede and mixed by
+            Fisher Diede. Great Green Room was recorded at the Duderstadt Center Audio Studio.
+          </p>
+          <a href="https://open.spotify.com/album/5fwmtvm6K8UxyQUVEIytJO?si=NRBSepdqSjepATRsYxuxFQ" target="_blank">Spotify</a>
+          <a href="https://www.youtube.com/watch?v=NAzQQjZ0PKo" target="_blank">Youtube</a>
+          <a href="https://music.apple.com/us/album/great-green-room/1484391287" target="_blank">Apple Music</a>
+      </div>
+
+
+    </div>
+    </div>
+
+  <script src="https://unpkg.com/colcade@0/colcade.js"></script>
+
+  <script>
+    var colc = new Colcade( '.grid', {
+      columns: '.grid-col',
+      items: '.grid-item'
+    });
+
+  </script>
+
+</body>
+</html>
