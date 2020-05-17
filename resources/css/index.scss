@@ -13,8 +13,8 @@ h1 {
 
 a{
   position: relative;
-  vertical-align: middle;
   text-decoration: none;
+  font-weight: bold;
 	color: #0f1c2d;
 }
 
@@ -89,7 +89,7 @@ img {
 .grid-item {
   text-align: center;
   padding-bottom: 15px;
-  margin:  0 auto;
+  margin-bottom: 3px;
   background-color: #6a9add;
 }
 
