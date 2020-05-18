@@ -25,7 +25,7 @@ a:hover {
 }
 
 p {
-  font-family: Andale Mono;
+  font-family: 'Andale Mono';
   font-size: 15px;
   position: relative;
   text-align: justify;
@@ -35,7 +35,7 @@ p {
 }
 
 p1 {
-  font-family: Andale Mono;
+  font-family: 'Andale Mono';
   font-size: 15px;
   position: relative;
   text-align: justify;
