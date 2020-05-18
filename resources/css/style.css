@@ -1,5 +1,6 @@
 @font-face { font-family: BluuNext; src: url('bluuNext-Bold.ttf');}
 @font-face { font-family: BluuNext1; font-weight: bold; src: url('BluuNext-Titling.ttf');}
+@font-face { font-family: Andale Mono; font-weight: normal; src: url('ANDALEMO.ttf');}
 
 body {
   margin:0;
