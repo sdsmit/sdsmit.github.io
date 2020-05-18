@@ -1,10 +1,10 @@
 @font-face { font-family: BluuNext; src: url('bluuNext-Bold.ttf');}
 @font-face { font-family: BluuNext1; font-weight: bold; src: url('BluuNext-Titling.ttf');}
-@font-face { font-family: Andale Mono; font-weight: normal; src: url('ANDALEMO.ttf');}
+@font-face { font-family: AndaleMono; font-weight: normal; src: url('ANDALEMO.ttf');}
 
 body {
   margin:0;
-  font-family: 'Andale Mono';
+  font-family: 'AndaleMono';
   background-color: #0f1c2d;
 }
 
@@ -25,7 +25,7 @@ a:hover {
 }
 
 p {
-  font-family: 'Andale Mono';
+  font-family: 'AndaleMono';
   font-size: 15px;
   position: relative;
   text-align: justify;
@@ -35,7 +35,7 @@ p {
 }
 
 p1 {
-  font-family: 'Andale Mono';
+  font-family: 'AndaleMono';
   font-size: 15px;
   position: relative;
   text-align: justify;
