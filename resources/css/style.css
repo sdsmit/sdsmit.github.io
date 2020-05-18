@@ -4,7 +4,6 @@
 
 body {
   margin:0;
-  font-family: 'AndaleMono';
   background-color: #0f1c2d;
 }
 
@@ -39,7 +38,6 @@ p1 {
   font-size: 15px;
   position: relative;
   text-align: justify;
-	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 15px;
 }
@@ -137,7 +135,7 @@ img {
 }
 
 
-@media(min-width: 400px) {
+@media(min-width: 300px) {
   .gridContainer{
     width: 90%;
   }
