@@ -25,6 +25,7 @@ a:hover {
 }
 
 p {
+  font-family: Andale Mono;
   font-size: 15px;
   position: relative;
   text-align: justify;
