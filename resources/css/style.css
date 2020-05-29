@@ -42,6 +42,14 @@ p1 {
 	padding-bottom: 15px;
 }
 
+.bottomInfo {
+  font-family: 'AndaleMono';
+  font-size: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #6a9add;
+}
+
 h3 {
   padding: 0 auto;
   margin-top:0px;
