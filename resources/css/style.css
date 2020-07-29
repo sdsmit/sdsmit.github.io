@@ -4,7 +4,7 @@
 
 body {
   margin:0;
-  background-color: #0f1c2d;
+  background-color: black;
 }
 
 h1 {
@@ -15,12 +15,12 @@ a{
   position: relative;
   text-decoration: none;
   font-weight: bold;
-	color: #0f1c2d;
+	color: black;
 }
 
 a:hover {
-	color: #6a9add;
-	background-color: #0f1c2d;
+	color: grey;
+	background-color: black;
 }
 
 p {
@@ -47,7 +47,7 @@ p1 {
   font-size: 15px;
   padding-bottom: 15px;
   text-align: center;
-  color: #6a9add;
+  color: grey;
 }
 
 h3 {
@@ -67,7 +67,7 @@ img {
 .container {
   width: 95%;
   margin: 0 auto;
-  background-color: #6a9add;
+  background-color: black;
 }
 
 .gridContainer {
@@ -75,14 +75,14 @@ img {
   margin: auto;
   margin-bottom: 20px;
   width: 95%;
-  background-color: #0f1c2d;
+  background-color: black;
 }
 
 .titleBar {
   position:fixed;
   top:0;
   font-family: "BluuNext1";
-  color:#0f1c2d;
+  color:black;
   float:left;
   box-sizing: border-box;
   padding-left: 15px;
@@ -90,7 +90,7 @@ img {
   margin: 0 auto;
   font-size: 40px;
   z-index: 1;
-  background-color: #6a9add;
+  background-color: grey;
 }
 
 .bio{
@@ -101,15 +101,15 @@ img {
 	font-size: 1rem;
 	line-height: 130%;
 	text-align: justify;
-	color: #0f1c2d;
-	background-color: #6a9add;
+	color: black;
+	background-color: grey;
 }
 
 .grid-item {
   text-align: center;
   padding-bottom: 15px;
   margin-bottom: 3px;
-  background-color: #6a9add;
+  background-color: grey;
 }
 
 .grid {
