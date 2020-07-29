@@ -123,12 +123,12 @@ img {
 
 .grid-col--2{
   flex: 1;
-  display:none;
+  display:block;
 }
 
 .grid-col--3{
   flex: 1;
-  display:none;
+  display:block;
 }
 
 .image {
@@ -140,6 +140,16 @@ img {
   position: absolute;
   background-color: #6a9add;
   color:white;
+}
+
+.grid-col--2{
+  flex: 1;
+  display:none;
+}
+
+.grid-col--3{
+  flex: 1;
+  display:none;
 }
 
 
