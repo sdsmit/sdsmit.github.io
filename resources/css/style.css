@@ -65,14 +65,15 @@ p1 {
   position: relative;
   text-align: justify;
 }
-.content d {
+
+.linkA {
   position: relative;
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
   color: white;
 }
-.content d:hover {
+.linkA:hover {
   color: black;
   background-color: white;
 }
@@ -119,6 +120,18 @@ p1 {
   background-color: grey;
 }
 
+.littleLinkInBio {
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.littleLinkInBio:hover {
+  color: grey;
+  background-color: black;
+}
+
 .grid-item {
   text-align: center;
 }
@@ -162,18 +175,6 @@ img {
 .grid-col--3 {
   flex: 1;
   display: none;
-}
-
-b {
-  position: relative;
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-}
-
-b:hover {
-  color: grey;
-  background-color: black;
 }
 
 .littleLink {
