@@ -243,7 +243,7 @@ b:hover {
     }
 }
 
-@media (min-width: 813px) {
+/* @media (min-width: 813px) {
   .container {
     width: 90%;
   }
@@ -284,7 +284,7 @@ b:hover {
     opacity: 1;
     transition: opacity 2s;
   }
-}
+} */
 @media (min-width: 1080px) {
   .grid-col--3 {
     display: block;
