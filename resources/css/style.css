@@ -202,11 +202,29 @@ b:hover {
   background-color: white;
 }
 
+@media (min-width: 400px) {
+  .gridContainer {
+    width: 90%;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .titleBar {
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  img {
+    opacity: 0.2;
+  }
+}
+
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
+  and (-webkit-min-device-pixel-ratio: 3) {
     .gridContainer {
       width: 90%;
     }
