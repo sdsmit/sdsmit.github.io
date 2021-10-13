@@ -220,7 +220,7 @@ b:hover {
     opacity: 0.2;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .container {
     width: 90%;
   }
