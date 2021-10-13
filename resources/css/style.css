@@ -202,7 +202,7 @@ b:hover {
   background-color: white;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 400px) {
   .gridContainer {
     width: 90%;
   }
@@ -220,7 +220,7 @@ b:hover {
     opacity: 0.2;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 813px) {
   .container {
     width: 90%;
   }
