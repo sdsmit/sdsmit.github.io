@@ -1,17 +1,17 @@
-@font-face {
-  font-family: BluuNext;
-  src: url("bluuNext-Bold.ttf");
-}
-@font-face {
-  font-family: BluuNext1;
-  font-weight: bold;
-  src: url("BluuNext-Titling.ttf");
-}
-@font-face {
-  font-family: AndaleMono;
-  font-weight: normal;
-  src: url("ANDALEMO.ttf");
-}
+// @font-face {
+//   font-family: BluuNext;
+//   src: url("bluuNext-Bold.ttf");
+// }
+// @font-face {
+//   font-family: BluuNext1;
+//   font-weight: bold;
+//   src: url("BluuNext-Titling.ttf");
+// }
+// @font-face {
+//   font-family: AndaleMono;
+//   font-weight: normal;
+//   src: url("ANDALEMO.ttf");
+// }
 body {
   margin: 0;
   background-color: black;
@@ -65,7 +65,7 @@ p1 {
   font-family: "AndaleMono";
   font-size: 15px;
   position: relative;
-  text-align: justify;
+  text-align: center;
 }
 
 .content a {
