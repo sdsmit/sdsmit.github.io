@@ -1,251 +1,323 @@
 @font-face {
-	 font-family: BluuNext;
-	 src: url("bluuNext-Bold.ttf");
+  font-family: BluuNext;
+  src: url("bluuNext-Bold.ttf");
 }
- @font-face {
-	 font-family: BluuNext1;
-	 font-weight: bold;
-	 src: url("BluuNext-Titling.ttf");
+@font-face {
+  font-family: BluuNext1;
+  font-weight: bold;
+  src: url("BluuNext-Titling.ttf");
 }
- @font-face {
-	 font-family: AndaleMono;
-	 font-weight: normal;
-	 src: url("ANDALEMO.ttf");
+@font-face {
+  font-family: AndaleMono;
+  font-weight: normal;
+  src: url("ANDALEMO.ttf");
 }
- body {
-	 margin: 0;
-	 background-color: black;
+body {
+  margin: 0;
+  background-color: black;
 }
- h1 {
-	 margin: 2em 0;
+
+h1 {
+  margin: 2em 0;
 }
- p1 {
-	 font-family: "AndaleMono";
-	 font-size: 15px;
-	 position: relative;
-	 text-align: justify;
-	 padding-right: 20px;
-	 padding-bottom: 15px;
+
+p1 {
+  font-family: "AndaleMono";
+  font-size: 15px;
+  position: relative;
+  text-align: justify;
+  padding-right: 20px;
+  padding-bottom: 15px;
 }
- .bottomInfo {
-	 font-family: "AndaleMono";
-	 font-size: 15px;
-	 text-align: center;
-	 color: grey;
+
+.bottomInfo {
+  font-family: "AndaleMono";
+  font-size: 15px;
+  text-align: center;
+  color: grey;
 }
- .container {
-	 width: 95%;
-	 margin: 0 auto;
-	 background-color: black;
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  background-color: black;
 }
- .content {
-	 position: absolute;
-	 width: inherit;
-	 background: rgba(0, 0, 0, 0);
-	 color: white;
-	 width: calc(90%);
-	 text-align: center;
-	 z-index: 100;
+
+.content {
+  position: absolute;
+  width: inherit;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  width: calc(90%);
+  text-align: center;
+  z-index: 100;
 }
- .content border h3 {
-	 width: 90%;
-	 font-size: 25px;
-	 text-align: center;
+.content border h3 {
+  width: 90%;
+  font-size: 25px;
+  text-align: center;
 }
- .content p {
-	 padding: 10px;
-	 width: 90%;
-	 font-family: "AndaleMono";
-	 font-size: 15px;
-	 position: relative;
-	 text-align: center;
+
+.content p {
+  padding: 10px;
+  width: 90%;
+  font-family: "AndaleMono";
+  font-size: 15px;
+  position: relative;
+  text-align: justify;
 }
- .content a {
-	 position: relative;
-	 text-decoration: none;
-	 font-size: 25px;
-	 font-weight: bold;
-	 color: white;
+
+.content linkA {
+  padding: 10px;
+  width: 90%;
+  font-family: "AndaleMono";
+  font-size: 15px;
+  position: relative;
+  text-align: justify;
 }
- .content a:hover {
-	 color: black;
-	 background-color: white;
+
+.content linkA:hover {
+  color: black;
+  background-color: white;
 }
- .content d {
-	 position: relative;
-	 text-decoration: none;
-	 font-size: 15px;
-	 font-weight: bold;
-	 color: white;
+
+.gridContainer {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 95%;
+  background-color: black;
 }
- .content d:hover {
-	 color: black;
-	 background-color: white;
+
+.titleBar {
+  position: fixed;
+  top: 0;
+  font-family: "BluuNext1";
+  color: black;
+  float: left;
+  box-sizing: border-box;
+  padding-left: 15px;
+  width: 95%;
+  margin: 0 auto;
+  font-size: 40px;
+  z-index: 101;
+  background-color: grey;
 }
- .gridContainer {
-	 box-sizing: border-box;
-	 margin: 0 auto;
-	 width: 95%;
-	 background-color: black;
+
+.text {
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  position: relative;
+  text-align: center;
 }
- .titleBar {
-	 position: fixed;
-	 top: 0;
-	 font-family: "BluuNext1";
-	 color: black;
-	 float: left;
-	 box-sizing: border-box;
-	 padding-left: 15px;
-	 width: 95%;
-	 margin: 0 auto;
-	 font-size: 40px;
-	 z-index: 1;
-	 background-color: grey;
+
+.bio {
+  margin-top: 25px;
+  padding: 15px 20px 15px 20px;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 130%;
+  text-align: justify;
+  color: black;
+  background-color: black;
 }
- .text {
-	 color: white;
-	 font-size: 20px;
-	 width: 100%;
-	 position: relative;
-	 text-align: center;
+
+.littleLinkInBio {
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
- .bio {
-	 margin-top: 45px;
-	 margin-bottom: 10px;
-	 padding: 15px 20px 15px 20px;
-	 font-weight: 300;
-	 font-size: 1rem;
-	 line-height: 130%;
-	 text-align: justify;
-	 color: black;
-	 background-color: grey;
+
+.littleLinkInBio:hover {
+  color: grey;
+  background-color: black;
 }
- .grid-item {
-	 text-align: center;
+
+.grid-item {
+  text-align: center;
 }
- .grid {
-	 display: flex;
+
+.grid {
+  display: flex;
 }
- .grid-col {
-	 flex: 1;
-	 padding: 0 0.1em;
+
+.grid-col {
+  flex: 1;
+  padding: 0 0.1em;
 }
- .grid-col--2 {
-	 flex: 1;
-	 display: block;
+
+.grid-col--2 {
+  flex: 1;
+  display: block;
 }
- .grid-col--3 {
-	 flex: 1;
-	 display: block;
+
+.grid-col--3 {
+  flex: 1;
+  display: block;
 }
- img {
-	 width: 100%;
+
+img {
+  width: 100%;
 }
- .title {
-	 opacity: 1;
-	 font-size: 1.2rem;
-	 position: absolute;
-	 background-color: #6a9add;
-	 color: white;
+
+.title {
+  opacity: 1;
+  font-size: 1.2rem;
+  position: absolute;
+  background-color: #6a9add;
+  color: white;
 }
- .grid-col--2 {
-	 flex: 1;
-	 display: none;
+
+.grid-col--2 {
+  flex: 1;
+  display: none;
 }
- .grid-col--3 {
-	 flex: 1;
-	 display: none;
+
+.grid-col--3 {
+  flex: 1;
+  display: none;
 }
- b {
-	 position: relative;
-	 text-decoration: none;
-	 font-weight: bold;
-	 color: black;
+
+.littleLink {
+  position: relative;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
 }
- b:hover {
-	 color: grey;
-	 background-color: black;
+
+.littleLink:hover{
+  color: black;
+  background-color: white;
 }
- c {
-	 position: relative;
-	 font-size: 40px;
-	 text-decoration: none;
-	 font-weight: bold;
-	 color: white;
-	 z-index: 30;
+
+.littleLinkA {
+  position: relative;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
 }
- c:hover {
-	 color: black;
-	 background-color: white;
+
+.littleLinkA:hover{
+  color: black;
+  background-color: white;
 }
- @media (min-width: 300px) {
-	 .gridContainer {
-		 width: 90%;
-	}
-	 .container {
-		 width: 90%;
-	}
-	 .titleBar {
-		 width: 90%;
-		 box-sizing: border-box;
-	}
-	 img {
-		 opacity: 0.2;
-	}
+
+.bigLink{
+  position: relative;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
 }
- @media (min-width: 600px) {
-	 .container {
-		 width: 90%;
-	}
-	 h1 {
-		 margin: 3em 0;
-	}
-	 .grid-col--2 {
-		 display: block;
-	}
-	 .grid-col {
-		 padding: 0 0.8em;
-	}
-	 .content {
-		 width: calc(90% / 2);
-		 opacity: 0;
-		 transition: opacity 2s;
-		 will-change: opacity;
-	}
-	 img {
-		 opacity: 1;
-		 transition: opacity 2s;
-		 z-index: 0;
-	}
-	 .grid-item:hover {
-		 cursor: pointer;
-	}
-	 .grid-item:hover img {
-		 opacity: 0.1;
-		 transition: opacity 2s;
-	}
-	 .grid-item:hover .content {
-		 opacity: 1;
-		 transition: opacity 2s;
-	}
+
+.bigLink:hover {
+  color: black;
+  background-color: white;
 }
- @media (min-width: 1080px) {
-	 .grid-col--3 {
-		 display: block;
-	}
-	 .content {
-		 width: calc(90% / 3);
-	}
-	 .titleBar {
-		 width: 90%;
-	}
-	 .container {
-		 width: 90%;
-	}
-	 .gridContainer {
-		 width: 90%;
-	}
+
+@media (min-width: 400px) {
+  .gridContainer {
+    width: 90%;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .titleBar {
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  img {
+    opacity: 0.2;
+  }
 }
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .gridContainer {
+      width: 90%;
+    }
+
+    .container {
+      width: 90%;
+    }
+
+    .titleBar {
+      width: 90%;
+      box-sizing: border-box;
+    }
+
+    img {
+      opacity: 0.2;
+    }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+
+  h1 {
+    margin: 3em 0;
+  }
+
+  .grid-col--2 {
+    display: block;
+  }
+
+  .content {
+    width: calc(90% / 2);
+    opacity: 0;
+    transition: opacity 2s;
+    will-change: opacity;
+  }
+
+  img {
+    opacity: 1;
+    transition: opacity 2s;
+    z-index: 0;
+  }
+
+  .grid-item:hover {
+    cursor: pointer;
+  }
+  .grid-item:hover img {
+    opacity: 0.1;
+    transition: opacity 2s;
+  }
+  .grid-item:hover .content {
+    opacity: 1;
+    transition: opacity 2s;
+  }
+}
+
+@media (min-width: 1400px) {
+  .grid-col--3 {
+    display: block;
+  }
+
+  .content {
+    width: calc(90% / 3);
+  }
+
+  .titleBar {
+    width: 90%;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .gridContainer {
+    width: 90%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.sccs.map */
- 
